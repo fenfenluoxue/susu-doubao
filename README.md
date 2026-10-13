@@ -14,6 +14,12 @@
 - **🔑 API 密钥支持**：本地模型可设 API 密钥保护，云端模型直接填密钥
 - **📊 Token 统计**：显示生成 token 数、生成速度
 
+## 🖼 节点预览
+
+插件包含两个节点：LLM 模型控制台和 LLM 聊天节点
+
+![节点预览](screenshots/node-preview.png)
+
 ## 📦 安装方法
 
 ### 方式一：Git Clone
