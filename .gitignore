@@ -1,0 +1,22 @@
+# llama.cpp 运行库（约2GB，不放入Git仓库）
+bin/
+
+# 会话历史（个人数据）
+sessions/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 备份文件
+*.bak
+*.bak_*
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

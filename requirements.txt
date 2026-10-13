@@ -1,0 +1,15 @@
+# susu-doubao 插件依赖说明
+#
+# 本插件不需要额外安装任何 Python 依赖包。
+# 所有依赖均已包含在 ComfyUI 运行环境中：
+#
+# - Python 标准库：os, sys, json, subprocess, threading, time,
+#   struct, urllib, re, base64, io, uuid
+# - ComfyUI 内置：folder_paths, server (PromptServer)
+# - aiohttp：ComfyUI 依赖的 Web 框架
+#
+# 唯一的外部依赖是 llama.cpp 的 llama-server.exe（用于本地模型推理），
+# 这是一个独立的可执行文件，不是 Python 包。
+# 请参考 README.md 中的「关于 llama.cpp 运行库」部分获取安装方法。
+#
+# 如果你使用云端 API（OpenAI 格式），连 llama-server.exe 都不需要。
